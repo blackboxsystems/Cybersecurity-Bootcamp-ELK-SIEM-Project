@@ -99,6 +99,11 @@ azadmin@ELK-vm: sudo service filebeat start
 ![check_module_filebeat](Setup/Images/Filebeat-module-check-status.png)
 
 # Filebeat Dashboard
+## System Log and Processes
 ![syslog_metrics_filebeat](Setup/Images/Kibana-syslog-filebeat.png)
 
+## Log of Processes by name
 ![process_metrics_filebeat](Setup/Images/Kibana-processes-filebeat.png)
+
+## Log of SSH Login attempts
+![process_metrics_filebeat](Setup/Images/Kibana-ssh-logins-filebeat.png)
