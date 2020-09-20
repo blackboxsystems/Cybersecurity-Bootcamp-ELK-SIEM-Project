@@ -1,4 +1,4 @@
-# Cybersecurity-Bootcamp-Azure-ELK
+# Microsoft Azure ELK Stack
 
 This repository showcases an ELK deployment using Microsoft Azure to monitor 2 web virtual machines backed by a load balancer.
 
@@ -25,28 +25,32 @@ Virtual Machines:
 
 ----	
 ## Configuring JumpBox VM
-* Standard B1s, 1 GiB RAM
+* Linux, Ubuntu Server 18.04 LTS - Gen1
+* Standard B1s, 1 GiB RAM, 1 vCPU
 * Private IP: 10.1.0.7
 * username: azadmin
 * ssh-key: public key from Workstation VM
 
 ----
 ## Configuring Web3 VM
-* Standard B1s, 1 GiB RAM
+* Linux, Ubuntu Server 18.04 LTS - Gen1
+* Standard B1s, 1 GiB RAM, 1 vCPU
 * Private IP: 10.1.0.8
 * username: azadmin
 * ssh-key: public key from JumpBox/Ansible VM
 
 ----
 ## Configuring Web4 VM
-* Standard B1s, 1 GiB RAM
+* Linux, Ubuntu Server 18.04 LTS - Gen1
+* Standard B1s, 1 GiB RAM, 1 vCPU
 * Private IP: 10.1.0.9
 * username: azadmin
 * ssh-key: public key from JumpBox/Ansible VM
 
 ----
 ## Configuring ELK VM
-* Standard B2s, 4 GiB RAM
+* Linux, Ubuntu Server 18.04 LTS - Gen1
+* Standard B2s, 4 GiB RAM, 2 vCPU's
 * Private IP: 10.3.0.4
 * username: azadmin
 * ssh-key: public key from JumpBox/Ansible VM
