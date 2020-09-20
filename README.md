@@ -26,6 +26,7 @@ Virtual Machines:
 ----	
 ## Configuring JumpBox VM
 * Standard B1s, 1 GiB RAM
+* Private IP: 10.1.0.7
 * username: azadmin
 * ssh-key: public key from Workstation VM
 
